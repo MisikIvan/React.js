@@ -1,0 +1,32 @@
+/* ContactForm.css */
+.ContactForm {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .ContactForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .ContactForm input,
+  .ContactForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .ContactForm button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ContactForm button:hover {
+    background-color: #45a049;
+  }
+  

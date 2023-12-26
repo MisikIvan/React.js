@@ -1,0 +1,74 @@
+/* Contact.scss */
+.Contact {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .ContactForm {
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+@media (max-width: 768px) {
+  .Contact {
+    padding: 10px;
+  }
+
+  .Contact h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Contact p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .ContactForm input,
+  .ContactForm textarea {
+    font-size: 14px;
+  }
+
+  .ModalContent {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+}
+
